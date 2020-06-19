@@ -7,5 +7,9 @@ exports.middleware = [
 ];
 
 exports.hello = {
-  text: 'Hello World',
+  text: 'Hello World 123',
+};
+
+exports.tracer = {
+  Class: require('./my_tracer.js'),
 };
